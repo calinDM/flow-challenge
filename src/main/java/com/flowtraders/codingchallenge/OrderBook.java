@@ -8,18 +8,29 @@ public class OrderBook {
     private Map<Float, List<Order>> buyOrders = new TreeMap<>();
     private Map<Float, List<Order>> sellOrders = new TreeMap<>();
 
+    public void reset() {
+        // TODO Add your implementation here
+    }
+
+    public void addOrder(Order order) {
+        // TODO Add your implementation here
+    }
+
+    public void modifyOrder(Order order) {
+        // TODO Add your implementation here
+    }
+
+    public void cancelOrder(Order order) {
+        // TODO Add your implementation here
+    }
+
     public Integer getTotalSize(Side side) {
-        //TODO: Implement logic
+        // TODO: Add your implementation here
         return null;
     }
 
-    public void reset() {
-        buyOrders = new TreeMap<>();
-        sellOrders = new TreeMap<>();
-    }
-
     public Float getSpread() {
-       //TODO: Implement logic
+        // TODO: Add your implementation here
         return null;
     }
 }
